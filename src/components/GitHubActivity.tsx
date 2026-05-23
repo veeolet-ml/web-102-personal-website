@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import {
   getGitHubCommits,
   type GitHubFetchResult,
-} from "../services/githubService";
+} from "@/services/githubService";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Separator } from "@/components/ui/separator";
 import {
