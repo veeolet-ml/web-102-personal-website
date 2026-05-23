@@ -2,6 +2,18 @@
 
 @custom-variant dark (&:is(.dark *));
 
+:root {
+  --accent: #470081;
+  --accent-hover: #5d10a0;
+  --accent-soft: rgb(71 0 129 / 0.18);
+  --accent-ring: rgb(126 34 206 / 0.55);
+}
+
+::selection {
+  background: var(--accent);
+  color: #ffffff;
+}
+
 body {
   margin: 0;
   min-width: 320px;
