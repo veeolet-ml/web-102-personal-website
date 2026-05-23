@@ -39,7 +39,7 @@ const IntroSection = () => {
   return (
     <section
       id="intro"
-      className="mx-auto flex min-h-screen max-w-5xl flex-col items-center gap-10 md:flex-row"
+      className="mx-auto flex min-h-screen max-w-5xl flex-col justify-center gap-10 px-6 py-16 md:flex-row md:items-center"
     >
       <div className="flex-1">
         <h1>
@@ -64,7 +64,7 @@ const IntroSection = () => {
       <img
         src={myFace}
         alt="Portrait of Val"
-        className="h-64 w-64 shrink-0 rounded-lg object-cover md:h-80 md:w-80"
+        className="h-64 w-64 self-center rounded-lg object-cover md:h-80 md:w-80"
       />
     </section>
   );
