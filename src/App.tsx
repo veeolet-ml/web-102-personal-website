@@ -1,3 +1,4 @@
+import AchievementsCarousel from "@/components/AchievementsCarousel";
 import GitHubActivity from "@/components/GitHubActivity";
 import IntroSection from "@/components/IntroSection";
 import ProjectGrid from "@/components/ProjectGrid";
@@ -9,6 +10,8 @@ function App() {
       <IntroSection />
 
       <ProjectGrid projects={projects} />
+
+      <AchievementsCarousel />
 
       <section id="github-activity" className="mx-auto w-full max-w-xl">
         <GitHubActivity username="veeolet-ml" repo="web-102-personal-website" />
